@@ -9,7 +9,7 @@ public class Armstrong
         System.out.println("Ënter 3 Digit Number");
         Scanner scanner = new Scanner(System.in);
         num = scanner.nextInt();
-        scanner.close();
+        
         number = num;
 
         for( ;number!=0;number /= 10)
