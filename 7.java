@@ -9,7 +9,7 @@ public class Fibonacci
         System.out.println("How may numbers you want in the sequence:");
         Scanner scanner = new Scanner(System.in);
         count = scanner.nextInt();
-        scanner.close();
+       
         System.out.print("Fibonacci Series of "+count+" numbers:");
 
         int i=1;
